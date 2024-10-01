@@ -1,2 +1,30 @@
-# ngx-m3-demo-elderbyte
-This project demonstrates how to apply the ElderDesign using the new Material Design 3, available in Angular Material 18.
+# Angular Material 3 Demo for ElderByte
+This project demonstrates how ElderDesign is applied using the new Material Design 3 components introduced in Angular Material 18. It serves as a practical showcase for our corporate design and highlights how we integrate these new UI features.
+
+## Features
+*   Implementation of Material Design 3 styles and components
+*   Custom theme based on ElderDesign
+*   Example components and layouts demonstrating the flexibility of Angular Material 18
+
+## Getting Started
+
+### Prerequisites
+*   Node.js & npm installed
+*   Angular CLI installed
+
+### Installation
+Clone the repository and install dependencies:
+``` bash
+git clone https://github.com/joelmueller-2003/ngx-m3-demo-elderbyte
+cd ngx-m3-demo-elderbyte
+npm install
+```
+
+### Running the Project
+```bash
+ng serve
+```
+Then navigate to `http://localhost:4200/` to see the demo in action.
+
+## Styling and Theming
+The project uses Angular Material's theming system to incorporate ElderByte's custom styles. Here's how the styling is structured:
