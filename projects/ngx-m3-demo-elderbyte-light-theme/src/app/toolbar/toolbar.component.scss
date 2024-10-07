@@ -1,0 +1,15 @@
+@use '@angular/material' as mat;
+@use '../../../../../m3-theme.scss' as elderPalette;
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.toolbarTitle {
+    color: var(--mdc-filled-button-container-color);
+    margin-left: 10px;
+}
+
+.primaryIcon {
+    @include mat.icon-color(elderPalette.$light-theme, $color-variant: primary);
+}

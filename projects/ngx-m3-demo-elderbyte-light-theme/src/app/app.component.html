@@ -1,3 +1,40 @@
-<header></header>
-<main></main>
-<footer></footer>
+<div class="layout-container">
+
+  <header>
+    <app-toolbar />
+  </header>
+
+  <main>
+    <mat-drawer-container class="example-container">
+
+      <mat-drawer mode="side" opened>
+        <mat-nav-list>
+          <a mat-list-item href="#">Home</a>
+          <a mat-list-item href="#">About</a>
+          <a mat-list-item href="#">Team</a>
+          <a mat-list-item href="#">Pricing</a>
+          <a mat-list-item href="#">References</a>
+          <a mat-list-item href="#">Contact</a>
+        </mat-nav-list>
+      </mat-drawer>
+
+      <mat-drawer-content>
+        <div class="main-container">
+          <h1>Material 3 Design in Angular</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, dolor ipsum, consequuntur dolores sint voluptatum sit veniam impedit dignissimos ipsam iure maxime deserunt facere vero. Tempora consequuntur sint eaque qui!
+          Doloribus sequi laudantium vitae similique! Sapiente distinctio, laudantium nobis aliquam itaque eaque velit culpa labore. Labore voluptate obcaecati, illum sequi tempora, vel, dolorem quo tenetur sit nesciunt id corrupti neque?</p>
+          <app-button />
+        </div>
+      </mat-drawer-content>
+
+    </mat-drawer-container>
+  </main>
+
+  <footer>
+    <mat-grid-list cols="2" rowHeight="5rem">
+      <mat-grid-tile>Copyright 2024 ElderByte AG</mat-grid-tile>
+      <mat-grid-tile>Terms of Service | Privacy | Impress</mat-grid-tile>
+    </mat-grid-list>
+  </footer>
+
+</div>

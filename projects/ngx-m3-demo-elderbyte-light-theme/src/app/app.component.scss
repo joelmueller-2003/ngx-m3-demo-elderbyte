@@ -1,0 +1,37 @@
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+header, footer {
+    flex: 0 0 auto;
+}
+  
+main {
+    flex: 1 1 auto;
+    display: flex;
+}
+  
+.example-container {
+    flex: 1;
+    display: flex;
+    height: 100%;
+}
+  
+mat-drawer-content {
+    overflow: auto;
+}
+  
+footer mat-grid-list {
+    width: 100%;
+    background-color: var(--mat-app-background-color);
+}
+
+.main-container {
+    padding: 50px;
+}
+
+mat-drawer {
+    width: 15%;
+}

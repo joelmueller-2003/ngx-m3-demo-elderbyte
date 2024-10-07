@@ -1,0 +1,22 @@
+@use '@angular/material' as mat;
+@use '../../../../../m3-theme.scss' as elderPalette;
+
+.primaryButton {
+    @include mat.button-color(elderPalette.$light-theme, $color-variant: primary);
+}
+
+.secondaryButton {
+    @include mat.button-color(elderPalette.$light-theme, $color-variant: secondary);
+}
+
+.tertiaryButton {
+    @include mat.button-color(elderPalette.$light-theme, $color-variant: tertiary);
+}
+
+.errorButton {
+    @include mat.button-color(elderPalette.$light-theme, $color-variant: error);
+}
+
+button {
+    margin: 5px 10px 5px  0px;
+}

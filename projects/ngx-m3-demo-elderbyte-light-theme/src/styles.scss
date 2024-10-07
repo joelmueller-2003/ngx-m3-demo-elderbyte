@@ -8,6 +8,11 @@
   @include mat.all-component-themes(elderPalette.$light-theme);
 }
 
+:root {
+  mat-toolbar {
+    --mat-toolbar-container-background-color: #{mat.get-theme-color(elderPalette.$light-theme, primary, 90)};
+  }
+}
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
