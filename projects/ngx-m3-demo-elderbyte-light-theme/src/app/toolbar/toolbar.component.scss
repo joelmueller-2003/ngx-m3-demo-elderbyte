@@ -13,3 +13,11 @@
 .primaryIcon {
     @include mat.icon-color(elderPalette.$light-theme, $color-variant: primary);
 }
+
+.button-text {
+    color: var(--mdc-filled-button-container-color) !important;
+}
+
+mat-toolbar {
+    --mat-toolbar-container-background-color: #{mat.get-theme-color(elderPalette.$light-theme, primary, 90)} !important;
+}
