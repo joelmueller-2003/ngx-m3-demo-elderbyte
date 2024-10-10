@@ -12,8 +12,8 @@
         Theme
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item>Light</button>
-      <button mat-menu-item>Dark</button>
+      <button mat-menu-item (click)="toggleTheme('light')">Light</button>
+      <button mat-menu-item (click)="toggleTheme('dark')">Dark</button>
     </mat-menu>
 
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
