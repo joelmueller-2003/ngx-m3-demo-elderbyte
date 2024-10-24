@@ -31,7 +31,7 @@ article {
     margin: 50px;
     padding: 50px;
     background-color: var(--sys-surface-container-low);
-    border-radius: 25px;
+    border-radius: var(--mat-sidenav-container-shape);
 }
 
 mat-drawer {
