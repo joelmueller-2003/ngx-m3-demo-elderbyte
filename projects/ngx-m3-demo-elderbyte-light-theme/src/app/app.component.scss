@@ -22,16 +22,19 @@ main {
 mat-drawer-content {
     overflow: auto;
 }
-  
-/*footer mat-grid-list {
-    width: 100%;
-    background-color: var(--mat-app-background-color);
-}*/
 
-.main-container {
+mat-drawer-container {
+    background-color: var(--sys-surface-container-lowest);
+}
+
+article {
+    margin: 50px;
     padding: 50px;
+    background-color: var(--sys-surface-container-low);
+    border-radius: var(--mat-sidenav-container-shape);
 }
 
 mat-drawer {
     width: 15%;
+    background-color: var(--sys-surface-container);
 }

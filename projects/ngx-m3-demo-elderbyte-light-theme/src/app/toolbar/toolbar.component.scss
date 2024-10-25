@@ -1,25 +1,20 @@
-@use '@angular/material' as mat;
-@use '../../../../../m3-theme.scss' as elderPalette;
-
 .example-spacer {
     flex: 1 1 auto;
 }
 
-/*
-.toolbarTitle {
-    color: var(--mdc-filled-button-container-color);
-    margin-left: 10px;
-}
-
-.primaryIcon {
-    @include mat.icon-color(elderPalette.$light-theme, $color-variant: primary);
-}
-
-.button-text {
-    color: var(--mdc-filled-button-container-color) !important;
-}
-
 mat-toolbar {
-    --mat-toolbar-container-background-color: #{mat.get-theme-color(elderPalette.$light-theme, primary, 90)} !important;
+    --mat-toolbar-container-background-color: var(--sys-primary);
+    --mat-toolbar-container-text-color: var(--sys-on-primary);
+    --mat-icon-color: var(--sys-on-primary);
+    padding-left: 0px;
 }
-    */
+
+.menu-button-container {
+    background-color: var(--sys-tertiary-container);
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
