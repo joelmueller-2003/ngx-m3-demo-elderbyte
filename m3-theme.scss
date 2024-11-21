@@ -143,7 +143,7 @@ $light-theme: mat.define-theme((
     use-system-variables: true,
   ),
   typography: (
-    use-system-variables: true,
+    use-system-variables: false,
   ),
 ));
 $dark-theme: mat.define-theme((
@@ -154,6 +154,6 @@ $dark-theme: mat.define-theme((
     use-system-variables: true,
   ),
   typography: (
-    use-system-variables: true,
+    use-system-variables: false,
   ),
 ));

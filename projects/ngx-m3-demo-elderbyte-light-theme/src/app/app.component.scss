@@ -18,23 +18,20 @@ main {
     display: flex;
     height: 100%;
 }
-  
-mat-drawer-content {
-    overflow: auto;
-}
 
 mat-drawer-container {
-    background-color: var(--sys-surface-container-lowest);
+    background-color: var(--sys-surface-container);
 }
 
-article {
+mat-card {
     margin: 50px;
     padding: 50px;
-    background-color: var(--sys-surface-container-low);
-    border-radius: var(--mat-sidenav-container-shape);
+    background-color: var(--sys-surface-container-lowest);
+    /*border-radius: var(--mat-sidenav-container-shape);*/
+    border-width: 0px;
 }
 
 mat-drawer {
     width: 15%;
-    background-color: var(--sys-surface-container);
+    /*background-color: var(--sys-surface-container-highest);*/
 }
